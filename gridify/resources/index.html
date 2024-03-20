@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <title>NeutralinoJs sample app</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <main>
+    <div>
+      <img src="./icons/bar.png" class="image">
+      <button class="print-button">Print</button>
+    </div>
+    <div>
+      <p class="label">
+        Mooltik zip file
+      </p>
+      <div class="input-area">
+        <input type="text" class="zip-file" />
+        <button class="choose-button">Choose File</button>
+      </div>
+      <p class="label">
+        Content preview
+      <div class="content-area"></div>
+      </p>
+    </div>
+  </main>
+  <!-- Neutralino.js client. This file is gitignored, 
+        because `neu update` typically downloads it.
+        Avoid copy-pasting it. 
+        -->
+  <script src="js/neutralino.js"></script>
+  <!-- Your app's source files -->
+  <script src="js/main.js"></script>
+</body>
+
+</html>

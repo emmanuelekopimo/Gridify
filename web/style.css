@@ -1,0 +1,15 @@
+body,
+html {
+  margin: 6px;
+}
+
+.main {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 17px;
+}
+
+.slide {
+  width: 100%;
+  border: 2.5px solid black;
+}
